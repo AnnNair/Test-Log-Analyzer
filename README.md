@@ -22,3 +22,15 @@ log data with realistic noise and missing values.
   in an interactive Plotly dashboard.
 
 ## Running it
+pip install -r requirements.txt
+python analyzer.py     # prints cleaning steps and anomaly summary table
+python dashboard.py    # generates dashboard.html
+Open `dashboard.html` in a browser to view the interactive dashboard.
+
+
+## Limitations
+- Uses a fixed z-score threshold rather than an adaptive one; this 
+  assumes each rolling window is roughly normally distributed, which may 
+  not hold during rapid genuine trend changes (e.g. actual pollution spikes).
+- The 24-hour window size was chosen for this hourly dataset and would 
+  need to be re-tuned for data at a different sampling rate.s

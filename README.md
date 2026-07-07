@@ -1,3 +1,6 @@
+🔗 **[View live interactive dashboard](https://annnair.github.io/Test-Log-Analyzer/dashboard.html)**
+
+
 # Automated Test Log Analyzer & Outlier Dashboard
 
 A Python tool that parses multi-channel sensor log data, flags anomalous 

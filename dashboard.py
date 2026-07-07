@@ -44,5 +44,5 @@ for i, col in enumerate(sensor_cols, start=1):
 fig.update_layout(height=250 * len(sensor_cols), showlegend=False,
                    title="Sensor Trends with Flagged Anomalies")
 
-fig.write_html("dashboard.html")
+fig.write_html("dashboard.html", include_plotlyjs="cdn")
 print("Dashboard saved to dashboard.html")

@@ -22,10 +22,10 @@ log data with realistic noise and missing values.
   in an interactive Plotly dashboard.
 
 ## Running it
-pip install -r requirements.txt
-python analyzer.py     # prints cleaning steps and anomaly summary table
-python dashboard.py    # generates dashboard.html
-Open `dashboard.html` in a browser to view the interactive dashboard.
+-pip install -r requirements.txt
+-python analyzer.py     # prints cleaning steps and anomaly summary table
+-python dashboard.py    # generates dashboard.html
+-Open `dashboard.html` in a browser to view the interactive dashboard.
 
 
 ## Limitations
